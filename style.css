@@ -21,13 +21,16 @@ html {
     padding: 20px 0 20px 0;
 }
 
-.img {
+#img {
+    content: url("https://blog-frontend.envato.com/cdn-cgi/image/width=1200,quality=85,format=auto/uploads/2020/06/SOC101_Portfolio_Guide.png");
+    max-width: 800px;
     width: 100%;
     height: auto;
 }
 
-@media only screen and (max-device-width: 400px) {
-    img {
-      width: auto;
-    }
-  }
+
+.body {
+    font-family: roboto;
+    font-size: 16px;
+}
+

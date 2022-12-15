@@ -10,5 +10,12 @@ let changeBack = function() {
     caseyName.innerHTML = "Unhovered"
 }
 
+let image = document.getElementById('img');
+
+let changeImage = function() {
+    image.style.opacity = "30%";
+}
+
 caseyName.addEventListener('mouseover', changeText);
-caseyName.addEventListener('mouseout', changeBack)
+caseyName.addEventListener('mouseout', changeBack);
+image.addEventListener('click', changeImage);
