@@ -29,3 +29,4 @@ let changeImageBack = function() {
 // caseyName.addEventListener('mouseout', changeBack);
 hoverText.addEventListener('mouseover', changeImage);
 hoverText.addEventListener('mouseout', changeImageBack)
+
