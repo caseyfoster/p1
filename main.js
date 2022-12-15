@@ -23,6 +23,6 @@ let changeImageBack = function() {
 }
 
 // caseyName.addEventListener('mouseover', changeText);
-caseyName.addEventListener('mouseout', changeBack);
-image.addEventListener('mousedown', changeImage);
-image.addEventListener('mouseup', changeImageBack)
+// caseyName.addEventListener('mouseout', changeBack);
+image.addEventListener('mouseover', changeImage);
+image.addEventListener('mouseout', changeImageBack)
